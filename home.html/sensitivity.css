@@ -1,0 +1,67 @@
+body{
+    
+    background-image: url("undraw_Gaming_re_cma2\ \(1\).png")
+}
+
+
+.div{
+    font-family: cursive;
+}
+
+.h1{
+    text-align: center;
+    font-family: cursive;
+    
+}
+
+.form{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.btn{
+    border: solid;
+    border-color: rgb(60, 3, 218);
+    background-color: rgb(60, 3, 218); 
+    border-radius: 4px;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.container{ 
+    margin: 0%;
+display: flex;
+position: fixed;
+background-color: black;
+color: white;
+font-family: sans-serif;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+transition: 0.21s;
+}
+
+.container:hover{
+background-color:  rgb(67, 147, 253);
+}
+
+.link{
+color: white;
+justify-content: space-evenly;
+text-decoration: none;
+padding-right: 15px;
+display: inline;
+font-size: 19px;
+font-weight: bold;
+margin: 0,10px;
+font-family: cursive;
+}
+
+
+
+
+.container ul{
+display: flex;
+list-style-type: none;
+}

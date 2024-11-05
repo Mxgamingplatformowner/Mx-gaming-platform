@@ -1,0 +1,152 @@
+body{
+    margin: 0%;
+    font-family: sans-serif;
+    color: black;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.D{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 100px;
+    font-family: cursive;
+}
+
+
+
+.G{
+    
+    color: white;
+    background-color: rgb(4, 55, 221);
+}
+
+.DI{
+    display: flex;
+    margin-left: 70%;
+
+}
+
+.p{
+    margin-top: 1px;
+    margin-bottom: 5%;
+}
+
+.btn{
+    justify-content: center;
+    width: 106px;
+    height: 36px;
+    background-color: rgb(36, 91, 209);
+    color: white;
+    border-radius: 9px;
+    transition: 0.30s;
+    cursor: pointer;
+    border: solid;
+    border-color:  rgba(10, 6, 245, 0.685);
+    justify-content: center;
+    align-items: flex-end;
+    display: inline;
+    transition: all ease-in-out 0.3s 0s, background-color 0.3s , color 0.3s,
+}
+.btn:hover{
+    transform: translateY(-8px);
+    background-color: rgb(5, 45, 177);
+    color: rgb(240, 181, 181);
+    box-shadow: 5px 5px 10px rgb(53, 52, 52);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.h1{
+    margin-bottom: 0;
+    display: inline;
+    font-family: cursive;
+}
+
+footer{
+    margin: 0%;
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    cursor: auto;
+    display: flex;
+}
+
+footer:hover{
+    background-color: blue;
+}
+
+.container{
+    text-align: center;
+}
+
+.loader{
+    display: none;
+    border: 8px solid blue;
+    border-top: 8px solid rgb(14, 158, 241);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation:spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+@keyframes slideInleft{
+    from {transform: translateX(300px);}
+
+    to{transform: translateX(0);}
+}
+
+.D{ 
+    animation-name: slideInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+.h1{
+    animation-name: slideInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+.btn{
+    animation-name: slideInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+@keyframes bodyanimation{
+        0%{background:rgb(8, 190, 235);
+            color: black;
+            transform: translate(0px,0px);
+        }
+    
+        50%{
+            background: rgb(0, 81, 255);
+            color: white;
+            transform: translate(10px,10px);
+        }
+    
+    
+    }
+body{
+    animation-name: bodyanimation;
+    animation-duration: 3s ;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    }
+
+
+

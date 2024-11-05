@@ -1,0 +1,209 @@
+body{
+    justify-content: baseline;
+    color: white;
+    background-color: black;
+    font-size:19px;
+    font-family:sans-serif;
+    padding-right: 0%;
+    background-size: cover;
+    color: black;
+}
+
+.bod{
+    margin-left: 92%;
+}
+
+.H1{
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 
+    0%;
+    padding-top: 0%;
+    text-align: center;
+    color: blue;
+    border-radius: 200px;
+}
+
+.H2{
+    text-align: center;
+    color:aqua;
+}
+
+
+
+
+.p{
+    margin: 0%;
+    text-align: center;
+    border-radius: 200px;
+    font-weight: bolder;
+    display: block;
+    
+}
+
+.game li a{
+    font-weight: bold;
+    color: black;
+}
+
+.b{       
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.b:hover{
+    transition: 0.5ms;
+    color: aqua;
+
+}
+
+.b2{
+    
+    font-weight: bold;
+}
+.b3{
+    font-weight: bolder;
+    margin: 0%;
+    text-align: left;
+    justify-content: left;
+}
+
+.b4{
+  
+    font-weight: bold;
+}
+
+.b7{
+    justify-content: center;
+   align-items: center;
+
+}
+
+.h1g{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 200px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.h1s{
+    text-align: center;
+    border-radius: 200px;
+}
+
+.h1z{
+    
+    border-radius: 200px;
+    text-align: center;
+}
+#pz{
+    color: black;
+    font-weight: bold;
+}
+
+.ul{
+    font-weight: bold;
+}
+
+
+
+.button{
+    width: 106px;
+    height: 36px;
+    background-color: rgb(36, 91, 209);
+    color: white;
+    border-radius: 9px;
+    transition: 0.30s;
+    cursor: pointer;
+    border: solid;
+    border-color:  rgb(36, 91, 209);
+    justify-content: center;
+    align-items: flex-end;
+    display: inline;
+}
+.button:hover{
+    background-color: rgb(5, 45, 177);
+    color: rgb(240, 181, 181);
+    box-shadow: 5px 5px 10px rgb(53, 52, 52);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+.input{
+    visibility: hidden;
+}
+.label{
+    position:absolute;
+    width: 80px;
+    height: 40px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.circle{
+    width: 34px;
+    background-color: rgb(255, 254, 254);
+    height: 34px;
+    border-radius: 50%;
+    top: 3px;
+    position:
+    
+    absolute;
+    left: 3px;
+    animation: toggleOff 0.4s linear forwards;
+}
+.input:checked + .label{
+background-color: blue;
+}
+
+.input:checked + .label .circle{
+    animation: toggleOn .4s linear forwards;
+}
+@keyframes toggleOn {
+    0%{
+transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(40px);
+            }
+}
+@keyframes toggleOff {
+    0%{
+transform: translateX(40px);
+    }
+    100%{
+        transform: translateX(0);
+            }
+}
+
+.di{
+    color: white;
+    background-color: greenyellow;
+    height: 30px;
+    width: 106;
+    border-style: none;
+    border: solid;
+
+}
+
+.di:hover{
+    transition: 0.71ms;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.f{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}

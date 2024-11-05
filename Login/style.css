@@ -1,0 +1,105 @@
+body{
+    font-family: sans-serif;
+    background-image: url("undraw_Gaming_re_cma2\ \(1\).png");
+    box-sizing: content-box;
+}
+
+
+.h{
+    font-weight: bold;    
+}
+.h1{
+    display: inline;
+}
+
+.Sign{
+    text-align: center;
+    width:20%;
+}
+
+.First{
+    border-radius: 6px;
+    border: solid;
+    background-color: white;
+    font-weight: bold;
+    width: 20%;
+}
+
+
+
+.Second{
+    width: fit-content;
+    border-radius: 6px;
+    border: solid;
+    background-color: white;
+    font-weight: bold;
+    width: 20%;
+}
+.Email{
+    width: fit-content;
+    border-radius: 6px;
+    border: solid;
+    background-color: white;
+    font-weight: bold;
+    width: 20%;
+}
+.pass{
+    width: fit-content;
+    border-radius: 6px;
+    border: solid;
+    flex: 1;
+    background-color: white;
+    font-weight: bold;
+    width: 20%;
+}
+
+.btn{
+    width: 106px;
+    height: 36px;
+    background-color: rgb(36, 91, 209);
+    color: white;
+    border-radius: 9px;
+    transition: 0.30s;
+    cursor: pointer;
+    border: solid;
+    border-color:  rgb(36, 91, 209);
+    justify-content: center;
+}
+.btn:hover{
+    background-color: rgb(5, 45, 177);
+    color: rgb(240, 181, 181);
+    box-shadow: 5px 5px 10px rgb(53, 52, 52);
+}
+
+.input{
+    text-align: center;
+
+}
+
+.F{
+    font-weight: bolder;
+}
+.S{
+    font-weight: bolder;
+}
+.E{
+    font-weight: bolder;
+}
+.P{
+    font-weight: bolder;
+}
+
+@keyframes slideInleft{
+    from {transform: translateX(300px);}
+
+    to{transform: translateX(0);}
+}
+
+
+
+.input{
+    animation-name: slideInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}

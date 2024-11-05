@@ -1,0 +1,121 @@
+body{
+    justify-content: baseline;
+    color: black;
+font-size:19px;
+font-family:sans-serif;
+background-image: url("undraw_Gaming_re_cma2\ \(1\).png");
+padding-right: 0%;
+}
+
+.H1{
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 
+    0%;
+    padding-top: 0%;
+    text-align: center;
+    color: blue;
+ border-radius: 200px;
+}
+
+.H2{
+    text-align: center;
+    color:aqua;
+}
+
+
+
+
+.p{
+    margin: 0%;
+    text-align: center;
+    border-radius: 200px;
+    font-weight: bolder;
+    
+}
+
+.game li a{
+    text-decoration: underline none whitesmoke;
+    font-weight: bold;
+}
+
+.b{
+        text-decoration: underline dotted white;
+    font-weight: bolder;
+}
+
+.b2{
+    color: black;
+    font-weight: bold;
+}
+.b3{
+    font-weight: bolder;
+    margin: 0%;
+    text-align: left;
+    justify-content: left;
+}
+
+.b4{
+  
+    font-weight: bold;
+}
+
+.b7{
+    justify-content: center;
+   align-items: center;
+
+}
+
+.h1g{
+    color: black;
+    border-radius: 200px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.h1s{
+    text-align: center;
+    border-radius: 200px;
+}
+
+.h1z{
+    
+    border-radius: 200px;
+    text-align: center;
+}
+#pz{
+    color: black;
+    font-weight: bold;
+}
+
+.ul{
+    font-weight: bold;
+}
+
+
+
+.button{
+    width: 106px;
+    height: 36px;
+    background-color: rgb(36, 91, 209);
+    color: white;
+    border-radius: 9px;
+    transition: 0.30s;
+    cursor: pointer;
+    border: solid;
+    border-color:  rgb(36, 91, 209);
+    justify-content: center;
+    align-items: flex-end;
+    display: inline;
+}
+.button:hover{
+    background-color: rgb(5, 45, 177);
+    color: rgb(240, 181, 181);
+    box-shadow: 5px 5px 10px rgb(53, 52, 52);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}

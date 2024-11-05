@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-image: url("undraw_Gaming_re_cma2\ \(1\).png");
+}
+
+.h1{
+    margin-left: 20px;
+    font-family: cursive;
+}
+
+.Home{
+    margin: 0%;
+    display: flex;
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.21s;
+}
+
+.Home:hover{
+background-color: rgb(67, 147, 253);
+}
+
+.link{
+    color: white;
+    padding-right: 30px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding-right: 15px;
+    display: inline;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0,10px;
+    font-family: cursive;
+}
+
+
+
+
+.Home ul{
+    display: flex;
+    list-style-type: none;
+}
+
+@keyframes animation{
+    0%{background:yellowgreen;
+        color: black;
+        transform: translate(0px,0px);
+    }
+
+    50%{
+        background: rgb(0, 81, 255);
+        color: white;
+        transform: translate(10px,10px);
+    }
+
+
+}
+
+.Home{
+    animation-name: animation;
+    animation-duration: 3s ;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:  ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slideInright{
+    from {transform: translateX(300px);}
+
+    to{transform: translateX(0);}
+}
+
+.div{
+    animation-name: slideInright;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s
+}
+
+.div2{
+    animation-name: slideInright;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+.div3{
+    animation-name: slideInright;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}

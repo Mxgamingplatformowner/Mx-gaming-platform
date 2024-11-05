@@ -1,0 +1,189 @@
+body{
+    font-family: sans-serif;
+    background-image: url("undraw_Gaming_re_cma2\ \(1\).png");
+    background-size: cover;
+}
+
+
+.h{
+    display: inline;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.h1{
+    display: inline;
+}
+
+.Sign{
+    text-align: center;
+}
+
+.First{
+    border-radius: 6px;
+    border: solid;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+
+.Second{
+    width: fit-content;
+    border-radius: 6px;
+    border: solid;
+    background-color: white;
+    font-weight: bold;
+    width: 20%;
+}
+.Email{
+    width: fit-content;
+    border-radius: 6px;
+    border: solid;
+    background-color: white;
+    font-weight: bold;
+    width: 20%;
+}
+.pass{
+    width: fit-content;
+    border-radius: 6px;
+    border: solid;
+    background-color: white;
+    font-weight: bold;
+    width: 20%;
+}
+
+.btn{
+    width: 106px;
+    height: 36px;
+    background-color: rgb(36, 91, 209);
+    color: white;
+    border-radius: 9px;
+    transition: 0.30s;
+    cursor: pointer;
+    border: solid;
+    border-color:  rgb(36, 91, 209);
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: rgb(5, 45, 177);
+    color: rgb(240, 181, 181);
+    box-shadow: 5px 5px 10px rgb(53, 52, 52);
+}
+
+.input{
+    text-align: center;
+
+}
+
+.F{
+    font-weight: bolder;
+}
+.S{
+    font-weight: bolder;
+}
+.E{
+    font-weight: bolder;
+}
+.P{
+    font-weight: bolder;
+}
+.container{
+    text-align: center;
+}
+
+.loader{
+    display: none;
+    border: 8px solid blue;
+    border-top: 8px solid rgb(14, 158, 241);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation:spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+/* Style all input fields */
+input {
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    position: relative;
+    width: 20%;
+  }  
+  
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "👍";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "👎";
+  }
+
+.ms{
+    text-align:right;
+    font-family: cursive;
+    padding:0%;
+    margin-top: 30%;
+    position: relative;
+  }
+
+  @keyframes slideInleft{
+    from {transform: translateX(300px);}
+
+    to{transform: translateX(0);}
+}
+
+.h{
+    animation-name: slideInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+.input{
+    animation-name: slideInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+

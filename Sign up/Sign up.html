@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="game icon.png">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1 class="h1">M🎮X</H1>
+    <div class="Sign">
+        <span class="h"><h1 class="h">Sign Up</h1></span>
+    <br><br><br>
+
+    </div>
+
+   <br><br><br>
+   <div class="ms" id="message">
+    <h3>Password must contain the following:</h3>
+    <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+    <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+    <p id="number" class="invalid">A <b>number</b></p>
+    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+  </div>
+<div class="input">
+
+    <form action="/home.html/home.html" method="post" target="_blank" >
+        <!--FOR REGISTER PAGE-->
+        <div>
+        <label class="F" for="First Name">First Name</label>
+        <br>
+    <input id="First Name" class="First" type="text" placeholder="First Name" required>
+    <br>
+     <br>
+    <label class="S" for="Second Name">Second Name</label>
+    <br>
+    <input id="Second Name" class="Second" type="text" placeholder="Second Name" required >
+    <br>
+<br>
+    <label class="E" for="Email">Email</label>
+    <br>
+    <input id="Email" class="Email" type="email" placeholder="email" required>
+    <br>
+    <br>
+    <label class="P" for="psw">Password</label>
+    <br>
+ <input autocomplete= "new-password" class="pass" type= "password" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password" required>
+<br><br>
+    <br>
+  </div>  
+    <button class="btn" type="submit">Sign in </button>
+    <div class="container" >
+    <div class="loader" id="loader" ></div>
+  </div>
+       </form>
+       </div>
+       <br>
+
+    <script src="Sign up.js"></script>
+</body>
+</html>
